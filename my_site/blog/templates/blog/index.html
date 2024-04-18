@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}
+    My Blog
+{% endblock %}
+
+{% block content %}
+    <header id="main-navigation"> 
+        <h1>
+            <a href="">Mike's Blog</a>
+            <nav>
+                <a href="">All Posts</a>
+            </nav>
+        </h1>
+    </header>
+
+    <section id="welcome">
+        <header>
+            <img src="" alt="Mike - The author of this Blog">
+            <h2>MIHAIL'S BLOG</h2>
+        </header>
+        <p>Hi, I am Mike and I love to blog about tech and the world!</p>
+    </section>
+
+    <section id="latest-posts">
+        <h2>My Lates Thoughts</h2>
+        <ul>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="" alt="Mountain Hiking">
+                        <div class="post__content">
+                            <h3>
+                                Mountain Hiking
+                                <p>
+                                    There is notning like the views when hiking in the mountaines!
+                                </p>
+                            </h3>
+
+                        </div>
+                    </a>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>What I Do</h2>
+        <p>I love programming, I love to learn programming!</p>
+        <p>My goal is to keep growing as developer!</p>
+    </section>
+{% endblock %}
